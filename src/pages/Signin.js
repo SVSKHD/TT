@@ -1,6 +1,6 @@
 import {Container , Row , Col  , Card , CardBody} from "reactstrap"
 import {FaUsers} from "react-icons/fa"
-import { useState } from "react"
+
 import Layout from "../layout/Layout"
 
 

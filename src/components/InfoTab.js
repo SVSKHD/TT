@@ -5,7 +5,7 @@ import {
     FaExternalLinkAlt
 } from "react-icons/fa"
 import { Link } from "react-router-dom"
-import {Button , ButtonGroup , Container , Row , Col , Card , CardBody} from "reactstrap"
+import {Button} from "reactstrap"
 
 const InfoTab = () =>{
 return(

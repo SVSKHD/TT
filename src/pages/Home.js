@@ -1,4 +1,4 @@
-import {Container , Row , Col} from "reactstrap"
+import {Container } from "reactstrap"
 import Layout from "../layout/Layout"
 import InfoTab  from "../components/InfoTab"
 import Seo from "..//components/Seo"
