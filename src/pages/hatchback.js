@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../layout/Layout";
 import Slider1 from "../components/Carousel";
-import { Container, Row, Col, Card, CardBody } from "reactstrap";
+import { Container, Row, Col} from "reactstrap";
 
 const hatchback = () => {
   return (
