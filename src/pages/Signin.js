@@ -74,7 +74,7 @@ const Signup = () => {
                 <hr />
                 <br />
                 <Row>
-                  <Col>
+                  <Col md={6}>
                   <Card
                       body
                       inverse
@@ -124,7 +124,7 @@ const Signup = () => {
                       </CardBody>
                     </Card>
                   </Col>
-                  <Col>
+                  <Col md={6}>
                    {loading ? <h1 className="text-center">Wait While We Make you a RoadMap</h1> : <h1 className="text-center">Please Signin</h1>}
                   </Col>
                 </Row>

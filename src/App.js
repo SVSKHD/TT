@@ -23,6 +23,8 @@ import SUV from "./pages/Suv";
 import hatchback from "./pages/hatchback";
 import UltraSuv from "./pages/ultraSuv";
 import Sedan from "./pages/Sedan";
+import Contact from "./pages/Contact";
+
 
 // context
 import { UserContext } from "./Context/UserContext";
@@ -45,6 +47,7 @@ function App() {
             <Route exact path="/suv" component={SUV} />
             <Route exact path="/sedan" component={Sedan} />
             <Route exact path="/ultrasuv" component={UltraSuv} />
+            <Route exact path="/contact" component={Contact}/>
             <Route exact path="*" component={NotFound} />
           </Switch>
         </UserContext.Provider>

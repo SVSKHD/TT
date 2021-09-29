@@ -75,7 +75,7 @@ const Signup = () => {
                 <hr />
                 <br />
                 <Row>
-                  <Col>
+                  <Col md={6}>
                     {loading ? (
                       <h3 className="text-center">
                         Please Wait Loading While we Sign you up
@@ -84,7 +84,7 @@ const Signup = () => {
                       <h3 className="text-center">...</h3>
                     )}
                   </Col>
-                  <Col>
+                  <Col md={6}>
                     <Card
                       body
                       inverse

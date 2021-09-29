@@ -1,4 +1,6 @@
+import Footer from "./Footer"
 import Head from "./head"
+
 
 const Layout = (props) =>{
 return(
@@ -6,6 +8,7 @@ return(
 <Head/>
 <br className="LayoutBreaker"/>
 {props.children}
+<Footer/>
 </>
 )
 }

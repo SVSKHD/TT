@@ -27,7 +27,7 @@ const Head = (props) => {
 
   return (
     <div>
-      <Navbar color="warning" dark expand="md">
+      <Navbar className="shadow-lg" color='light' light expand="md">
         <Container fluid>
           <NavbarBrand href="/"> Trip Tirupati</NavbarBrand>
           <NavbarToggler onClick={toggle} />
@@ -46,6 +46,11 @@ const Head = (props) => {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+              <NavItem>
+                <NavLink href="/contact">
+                   Contact
+                </NavLink>
+              </NavItem>
             </Nav>
             <Nav>
               {context.user ? (
@@ -65,7 +70,7 @@ const Head = (props) => {
                     <Button color="success" tag={Link} to="/signin">
                      <b>Signin</b>
                     </Button>
-                    <Button color="light" tag={Link} to="/signup">
+                    <Button outline color="dark" tag={Link} to="/signup">
                       <b>Signup</b>
                     </Button>
                   </ButtonGroup>
