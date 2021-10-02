@@ -10,7 +10,7 @@ const Contact = () => {
                 title="Trip-Tirupati | Contact Us "
                 />
                 <Layout>
-                <h1>Contact</h1>
+                <h1>Contact Us</h1>
                 </Layout>
             </div>
         )

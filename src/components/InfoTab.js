@@ -28,7 +28,7 @@ const InfoTab = () => {
             <div class="btn-group" role="group" aria-label="Basic example">
               <Button
                 target="_blank"
-                href="https://wa.me/9553419654?text='Hello we are interested in availing your services'"
+                href="https://wa.me/9100400245?text=Hello%20we%20are%20interested%20in%20availing%20your%20taxi%20services%20please%20contact%20me%20soon."
                 color="success"
               >
                 <FaWhatsapp size={30} />
@@ -56,7 +56,7 @@ const InfoTab = () => {
             <div class="btn-group" role="group" aria-label="Basic example">
               <Button
                 target="_blank"
-                href="https://wa.me/9553419654?text='Hello we are interested in availing your services'"
+                href="https://wa.me/9100400245?text=Hello%20we%20are%20interested%20in%20availing%20your%20taxi%20services%20please%20contact%20me%20soon."
                 color="success"
               >
                 <FaWhatsapp size={30} />
@@ -84,7 +84,7 @@ const InfoTab = () => {
             <div class="btn-group" role="group" aria-label="Basic example">
               <Button
                 target="_blank"
-                href="https://wa.me/9553419654?text='Hello we are interested in availing your services'"
+                href="https://wa.me/9100400245?text=Hello%20we%20are%20interested%20in%20availing%20your%20taxi%20services%20please%20contact%20me%20soon."
                 color="success"
               >
                 <FaWhatsapp size={30} />
