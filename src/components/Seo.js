@@ -1,28 +1,59 @@
-import {Helmet} from "react-helmet"
-const Seo = ({title , description , image , keywords , url , name}) =>{
-    return(
-      <>
+import { Helmet } from "react-helmet";
+const Seo = ({ title, description, image, keywords, url, name, keyphrase , type , link}) => {
+const address = 'https://triptirupati.in'
+
+  return (
+    <>
       <Helmet>
         <title>{title}</title>
-        <meta name="title" content={title}/>
-        <meta name="description" content={description}/>
-        <meta name="keywords" content={keywords}/>
-        <meta name="description" content="Find all the best quality           products your pet may need" />        
-        <meta name="twitter:card" content="summary_large_image" />        
-        <meta name="twitter:site" content="@user" />        
-        <meta name="twitter:creator" content="@user" />        
-        <meta name="twitter:title" content="Pets - Products" />        
-        <meta name="twitter:description" content="Best Products for your pet" />        
-        <meta name="twitter:image" content="url_to_image"/>        
-        <meta property="og:title" content={title} />        
-        <meta property="og:description" content={description} />        
-        <meta property="og:image" content={image}/>
+        <link rel="canonical" href={`${link}`} />
+        <meta name="title" content={title} />
+        <meta name="description" content={description} />
+        <meta name="keywords" content={keywords} />
+        <meta name="keyphrase" content={keyphrase} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@user" />
+        <meta name="twitter:creator" content="@user" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={image} />
         <meta property="og:url" content={url} />
-        <meta property="og:site_name" content={name} />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content={type} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={image} />
+        <meta property="og:image:alt" content={image} />
+        <meta property="og:locale" content="en_IN" />
         <meta property="fb:app_id" content="ID_APP_FACEBOOK" />
-      </Helmet>
-      </>
-    )
+        <script type="application/ld+json">
+          {`
+{
+  "@context": "schema",
+  "@type": "Taxi Company",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Alpiri Road",
+    "addressRegion": "Tirupati",
+    "postalCode": "517101",
+    "streetAddress": "AP.HB Colony"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "20"
+  },
+  "name": ${title},
+  "openingHours": [
+    "Mo-Sa 7:00-22:30",
+  ],
+  "priceRange": "INR",
+  "telephone": "(408) 714-1489",
+  "url": ${address}
 }
-export default Seo
+`}
+        </script>
+      </Helmet>
+    </>
+  );
+};
+export default Seo;
