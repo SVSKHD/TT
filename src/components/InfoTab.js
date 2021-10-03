@@ -33,7 +33,7 @@ const InfoTab = () => {
               >
                 <FaWhatsapp size={30} />
               </Button>
-              <Button tag={Link} to="/hatchback" className="btn btn-dark">
+              <Button  tag={Link} to="/hatchback" className="btn btn-dark">
                 <FaExternalLinkAlt size={30} />
               </Button>
             </div>

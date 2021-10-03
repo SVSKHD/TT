@@ -30,6 +30,7 @@ import Contact from "./pages/Contact";
 import { UserContext } from "./Context/UserContext";
 
 
+// firebase
 firebase.initializeApp(Firebase);
 
 function App() {

@@ -29,7 +29,7 @@ const hatchback = ({ history }) => {
               <Card className="shadow-lg">
                 <CardBody>
                   <div className="text-center">
-                    <h1 style={{ fontFamily: "Poppins" }}>Hatch Back</h1>
+                    <h1 style={{ fontFamily: "Poppins" }}>SUV</h1>
                     <Row>
                       <Col md={2}>
                         <p style={styles.QuoteContainer}>"</p>
@@ -38,7 +38,7 @@ const hatchback = ({ history }) => {
                         <br />
                         <p className="text-dark">
                           Hello There We are here with multiple options and now
-                          this option is one of them it's hatch back for micro
+                          this option is one of them it's SUV for micro
                           families and we see there might be heavy schedule in
                           your itenary but we will help you to make your trip
                           memorable within your flexibilities.
