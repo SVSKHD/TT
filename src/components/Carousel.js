@@ -6,7 +6,7 @@ import I1 from "../assests/img1.jpg"
 import I2 from "../assests/img2.jpg"
 import I3 from "../assests/img3.jpg"
 import I4 from "../assests/img4.jpg"
-import I5 from "../assests/img5.jpg"
+
 
 
 const items = [
@@ -30,11 +30,6 @@ const items = [
       altText: 'Slide 3',
       key: '3'
     },
-    {
-      src: I5,
-      altText: 'Slide 3',
-      key: '3'
-    }
   ];
   
   const Slider1 = (props) => {

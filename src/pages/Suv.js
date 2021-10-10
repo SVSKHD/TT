@@ -6,15 +6,15 @@ import ContactTab from "../components/ContactTab";
 import Seo from "../components/Seo";
 
 const SUV = () => {
-    const styles = {
-        fontFamily: "Open Sans",
-        QuoteContainer: {
-          fontFamily: "Open Sans",
-          fontSize: "10rem",
-          marginBottom: 0,
-          marginTop: 0,
-        },
-      };
+  const styles = {
+    fontFamily: "Open Sans",
+    QuoteContainer: {
+      fontFamily: "Open Sans",
+      fontSize: "10rem",
+      marginBottom: 0,
+      marginTop: 0,
+    },
+  };
   return (
     <div>
       <Seo
@@ -24,13 +24,13 @@ const SUV = () => {
         keyphrase="Trip Tirupati packages , Hatchback taxi in Tirupati , Tirupati travelling services , Tirumala travelling services, Cab hire in Tirupati , Best taxi company in Tirupati"
       />
       <Layout>
-      <Container>
+        <Container>
           <Row>
             <Col md={6} xs={12}>
               <Card className="shadow-lg">
                 <CardBody>
                   <div className="text-center">
-                    <h1 style={{ fontFamily: "Poppins" }}>Hatch Back</h1>
+                    <h1 style={{ fontFamily: "Poppins" }}>Van or Tempo</h1>
                     <Row>
                       <Col md={2}>
                         <p style={styles.QuoteContainer}>"</p>
@@ -39,9 +39,9 @@ const SUV = () => {
                         <br />
                         <p className="text-dark">
                           Hello There We are here with multiple options and now
-                          this option is one of them it's hatch back for micro
-                          families and we see there might be heavy schedule in
-                          your itenary but we will help you to make your trip
+                          this option is one of them it's SUV for micro families
+                          and we see there might be heavy schedule in your
+                          itenary but we will help you to make your trip
                           memorable within your flexibilities.
                         </p>
                         <br />

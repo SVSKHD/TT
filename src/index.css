@@ -1,3 +1,26 @@
 .LayoutBreaker{
   margin-bottom: 1rem;
 }
+
+.cad{
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+
+.cad:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+a{
+  color: darkslategrey;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffde00
+}
