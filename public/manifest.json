@@ -3,17 +3,17 @@
   "name": "The Best taxi from Tirupati",
   "icons": [
     {
-      "src": "TF.ico",
+      "src": "TT.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "TT.png",
+      "src": "TL.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "TT.png",
+      "src": "TL.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -16,9 +16,10 @@ import {
   Container,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-
 import { FaCar, FaShuttleVan } from "react-icons/fa";
 import { UserContext } from "../Context/UserContext";
+import LOGO from "../assests/TLPF.png"
+
 
 const Head = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,7 @@ const Head = (props) => {
     <div>
       <Navbar className="shadow-lg" color='light' light expand="md">
         <Container fluid>
-          <NavbarBrand href="/"> Trip Tirupati</NavbarBrand>
+          <NavbarBrand href="/"><img src={LOGO} height="100" alt="Tirupati Logo"/></NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="me-auto" navbar>
@@ -85,3 +86,7 @@ const Head = (props) => {
 };
 
 export default Head;
+
+// uasbles
+
+// <img height="100" alt="Hello Its Trip Tirupati" src={TL}/>

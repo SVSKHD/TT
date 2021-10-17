@@ -5,11 +5,11 @@ import Seo from "..//components/Seo"
 import Slider1 from "../components/Carousel"
 
 const Home = () =>{
-    const styles = {
-        container:{
-            fontFamily : 'Poppins'
-        }
-    }
+    // const styles = {
+    //     container:{
+    //         fontFamily : 'Poppins'
+    //     }
+    // }
     const Address = "https://triptirupati.in"
 return(
 <>
@@ -24,7 +24,6 @@ return(
         keyphrase="Best Taxi Company in Tirupati , low cost car rental, car hire in India,  cab hire, airport car rental in Tirupati, cheap cab for hire in Tirupati, radio taxi cab, 
         radio taxi services , Trip Tirupati"
         />
-        <h1 style={styles.container} className=" text-center display-3">Trip Tirupati</h1>
         <br/>
         <Slider1/>
         <br/>
