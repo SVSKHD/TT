@@ -6,7 +6,6 @@ const Layout = (props) =>{
 return(
 <>
 <Head/>
-<br className="LayoutBreaker"/>
 {props.children}
 <button className="shadow-lg buttonb">Contact Us  <FaPhone size={25}/></button>
 <Footer/>

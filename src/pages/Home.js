@@ -24,7 +24,6 @@ return(
         keyphrase="Best Taxi Company in Tirupati , low cost car rental, car hire in India,  cab hire, airport car rental in Tirupati, cheap cab for hire in Tirupati, radio taxi cab, 
         radio taxi services , Trip Tirupati"
         />
-        <br/>
         <Slider1/>
         <br/>
         <Container>
