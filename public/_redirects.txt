@@ -1,0 +1,11 @@
+/
+/home
+/sedan
+/suv
+/sedan
+/hatchback
+/tempo
+/contact
+/signin
+/signup
+https://triptirupati.in
