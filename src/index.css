@@ -50,3 +50,7 @@ br{
   /* transition for the hover and active states */
   transition: all 0.25s ease-out;
 }
+
+.FontFamilyN{
+  font-family: Poppins;
+}

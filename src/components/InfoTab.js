@@ -7,7 +7,7 @@ const InfoTab = () => {
     <>
       <div class="card-group shadow-lg CA text-center">
         <div class="card cad">
-          <a href="/hatchback">
+          <a href="/sedan">
             <div class="card-body">
               <div className="text-center">
                 <img
@@ -32,7 +32,7 @@ const InfoTab = () => {
         </div>
 
         <div class="card cad">
-          <a href="/sedan">
+          <a href="/suv">
             <div class="card-body">
               <div className="text-center">
                 <img height="100" src={SUV} alt="sedan Images" />
@@ -51,7 +51,7 @@ const InfoTab = () => {
           </a>
         </div>
         <div class="card cad">
-          <a href="/suv">
+          <a href="/tempo">
             <div class="card-body">
               <div className="text-center">
                 <img

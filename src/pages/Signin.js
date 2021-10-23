@@ -58,6 +58,7 @@ const Signup = () => {
     <>
       <div>
         <Layout>
+          <br/>
           <Container>
             <Card>
               <CardBody>

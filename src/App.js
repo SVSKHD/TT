@@ -19,10 +19,13 @@ import Home from "./pages/Home";
 import Signup from "./pages/Signup";
 import Signin from "./pages/Signin";
 import NotFound from "./pages/NotFound";
+// Page
 import SUV from "./pages/Suv";
 import hatchback from "./pages/hatchback";
 import UltraSuv from "./pages/ultraSuv";
 import Sedan from "./pages/Sedan";
+import Tempo from "./pages/Tempo"
+
 import Contact from "./pages/Contact";
 
 
@@ -49,6 +52,7 @@ function App() {
             <Route exact path="/sedan" component={Sedan} />
             <Route exact path="/ultrasuv" component={UltraSuv} />
             <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/tempo" component={Tempo}/>
             <Route exact path="*" component={NotFound} />
           </Switch>
         </UserContext.Provider>

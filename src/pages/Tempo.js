@@ -1,11 +1,11 @@
 import React from "react";
-import Layout from "../layout/Layout";
-import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import Slider1 from "../components/Carousel";
+import Layout from "../layout/Layout";
+import { Container, Row, Col, Card, CardBody } from "reactstrap";
 import ContactTab from "../components/ContactTab";
 import Seo from "../components/Seo";
 
-const SUV = () => {
+const Tempo = () => {
   const styles = {
     fontFamily: "Open Sans",
     QuoteContainer: {
@@ -18,8 +18,8 @@ const SUV = () => {
   return (
     <div>
       <Seo
-        title="Trip-Tirupati | Avail Our SuV Services"
-        description="hello there, we are here with our Suv cars for micro families and you can choose your locations with packages to your flexibility | Trip Tirupati packages"
+        title="Trip-Tirupati | Avail our Sedan Services"
+        description="hello there, we are here with our Sedan cars for micro families and you can choose your locations with packages to your flexibility | Trip Tirupati packages"
         keywords="Trip Tirupati packages , Hatchback taxi in Tirupati , Tirupati travelling services , Tirumala travelling services, Cab hire in Tirupati , Best taxi company in Tirupati "
         keyphrase="Trip Tirupati packages , Hatchback taxi in Tirupati , Tirupati travelling services , Tirumala travelling services, Cab hire in Tirupati , Best taxi company in Tirupati"
       />
@@ -31,7 +31,7 @@ const SUV = () => {
               <Card className="shadow-lg">
                 <CardBody>
                   <div className="text-center">
-                    <h1 style={{ fontFamily: "Poppins" }}>SUV</h1>
+                    <h1 style={{ fontFamily: "Poppins" }}>Tempo or Van</h1>
                     <Row>
                       <Col md={2}>
                         <p style={styles.QuoteContainer}>"</p>
@@ -40,10 +40,10 @@ const SUV = () => {
                         <br />
                         <p className="text-dark">
                           Hello There We are here with multiple options and now
-                          this option is one of them it's SUV for micro families
-                          and we see there might be heavy schedule in your
-                          itenary but we will help you to make your trip
-                          memorable within your flexibilities.
+                          this option is one of them it's Sedan for medium sized 
+                          families and we see there might be heavy schedule in
+                          your itenary but we will help you to make your trip
+                          memorable within your flexibilities & Budget.
                         </p>
                         <br />
                       </Col>
@@ -62,4 +62,4 @@ const SUV = () => {
     </div>
   );
 };
-export default SUV;
+export default Tempo;

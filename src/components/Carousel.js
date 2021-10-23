@@ -13,7 +13,6 @@ const Slider1 = () => {
   return (
     <>
       <Carousel
-      axis="vertical"
       showThumbs={false}
       >
         <div>

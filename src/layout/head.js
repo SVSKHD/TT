@@ -16,10 +16,8 @@ import {
   Container,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import { FaCar, FaShuttleVan } from "react-icons/fa";
 import { UserContext } from "../Context/UserContext";
-import LOGO from "../assests/TLPF.png"
-
+import LOGO from "../assests/TLPF.png";
 
 const Head = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,10 +25,12 @@ const Head = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar className="shadow-lg" color='light' light expand="md">
+    <div className="FontFamilyN">
+      <Navbar className="shadow-lg" color="light" light expand="md">
         <Container fluid>
-          <NavbarBrand href="/"><img src={LOGO} height="100" alt="Tirupati Logo"/></NavbarBrand>
+          <NavbarBrand href="/">
+            <img src={LOGO} height="100" alt="Tirupati Logo" />
+          </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="me-auto" navbar>
@@ -40,17 +40,18 @@ const Head = (props) => {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <FaCar size={30} />
+                    <NavLink href="/sedan">Sedan</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <FaShuttleVan size={30} />
+                    <NavLink href="/suv">Suv</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/tempo">Van</NavLink>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/contact">
-                   Contact
-                </NavLink>
+                <NavLink href="/contact">Contact</NavLink>
               </NavItem>
             </Nav>
             <Nav>
@@ -69,7 +70,7 @@ const Head = (props) => {
                 <>
                   <ButtonGroup size="md">
                     <Button color="success" tag={Link} to="/signin">
-                     <b>Signin</b>
+                      <b>Signin</b>
                     </Button>
                     <Button outline color="dark" tag={Link} to="/signup">
                       <b>Signup</b>
