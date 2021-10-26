@@ -4,6 +4,8 @@ import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import Slider1 from "../components/Carousel";
 import ContactTab from "../components/ContactTab";
 import Seo from "../components/Seo";
+import SUVI from "../assests/Suv.png";
+
 
 const SUV = () => {
   const styles = {
@@ -31,7 +33,18 @@ const SUV = () => {
               <Card className="shadow-lg">
                 <CardBody>
                   <div className="text-center">
-                    <h1 style={{ fontFamily: "Poppins" }}>SUV</h1>
+                  <Row>
+                      <Col>
+                        <h1 style={{ fontFamily: "Poppins" }}>SUV</h1>
+                      </Col>
+                      <Col>
+                        <img
+                          src={SUVI}
+                          alt="Trip Tirupati SUV Images"
+                          className="img-fluid img-thumbnail rotate"
+                        />
+                      </Col>
+                    </Row>
                     <Row>
                       <Col md={2}>
                         <p style={styles.QuoteContainer}>"</p>

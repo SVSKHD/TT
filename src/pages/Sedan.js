@@ -4,6 +4,7 @@ import Layout from "../layout/Layout";
 import { Container, Row, Col, Card, CardBody } from "reactstrap";
 import ContactTab from "../components/ContactTab";
 import Seo from "../components/Seo";
+import SedanI from "../assests/Sedan.png";
 
 const Sedan = () => {
   const styles = {
@@ -24,29 +25,37 @@ const Sedan = () => {
         keyphrase="Trip Tirupati packages , Hatchback taxi in Tirupati , Tirupati travelling services , Tirumala travelling services, Cab hire in Tirupati , Best taxi company in Tirupati"
       />
       <Layout>
-        <br/>
+        <br />
         <Container>
           <Row>
             <Col md={6} xs={12}>
               <Card className="shadow-lg">
                 <CardBody>
                   <div className="text-center">
-                    <h1 style={{ fontFamily: "Poppins" }}>Sedan</h1>
                     <Row>
-                      <Col md={2}>
-                        <p style={styles.QuoteContainer}>"</p>
+                      <Col>
+                        <h1 style={{ fontFamily: "Poppins" }}>Sedan</h1>
                       </Col>
-                      <Col md={10}>
-                        <br />
-                        <p className="text-dark">
-                          Hello There We are here with multiple options and now
-                          this option is one of them it's Sedan for medium sized 
-                          families and we see there might be heavy schedule in
-                          your itenary but we will help you to make your trip
-                          memorable within your flexibilities & Budget.
-                        </p>
-                        <br />
+                      <Col>
+                        <img
+                          src={SedanI}
+                          alt="Trip Tirupati Sedan Images"
+                          className="img-fluid img-thumbnail rotate"
+                        />
                       </Col>
+                    </Row>
+                    <Row>
+                      <p style={styles.QuoteContainer}>"</p>
+                      <br />
+
+                      <p className="text-dark">
+                        Hello There We are here with multiple options and now
+                        this option is one of them it's Sedan for medium sized
+                        families and we see there might be heavy schedule in
+                        your itenary but we will help you to make your trip
+                        memorable within your flexibilities & Budget.
+                      </p>
+                      <br />
                     </Row>
                     <ContactTab />
                   </div>

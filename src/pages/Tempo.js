@@ -4,6 +4,7 @@ import Layout from "../layout/Layout";
 import { Container, Row, Col, Card, CardBody } from "reactstrap";
 import ContactTab from "../components/ContactTab";
 import Seo from "../components/Seo";
+import TempoI from "../assests/VAN.png";
 
 const Tempo = () => {
   const styles = {
@@ -31,7 +32,18 @@ const Tempo = () => {
               <Card className="shadow-lg">
                 <CardBody>
                   <div className="text-center">
-                    <h1 style={{ fontFamily: "Poppins" }}>Tempo or Van</h1>
+                  <Row>
+                      <Col>
+                        <h1 style={{ fontFamily: "Poppins" }}>Tempo or Van</h1>
+                      </Col>
+                      <Col>
+                        <img
+                          src={TempoI}
+                          alt="Trip Tirupati Tempo Images"
+                          className="img-fluid img-thumbnail rotate"
+                        />
+                      </Col>
+                    </Row>
                     <Row>
                       <Col md={2}>
                         <p style={styles.QuoteContainer}>"</p>
