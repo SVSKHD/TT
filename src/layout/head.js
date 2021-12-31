@@ -17,7 +17,7 @@ import {
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import { UserContext } from "../Context/UserContext";
-import LOGO from "../assests/TLPF.png";
+import LOGO from "../assests/TTNEW.png";
 
 const Head = (props) => {
   const [isOpen, setIsOpen] = useState(false);

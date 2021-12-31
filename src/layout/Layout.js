@@ -9,7 +9,8 @@ return(
 <div>
 <Head/>
 {props.children}
-<Button  target="_blank" href="tel:9100400245" className="shadow-lg buttonb">Contact Us  <FaPhone size={25}/></Button>
+<Button  target="_blank" href="tel:9581887055" className="shadow-lg buttonb"> <FaPhone className="ContactIcon" size={20}/> Contact Us  </Button>
+<div style={{marginBottom:'10rem'}}/>
 <Footer/>
 </div>
 </>

@@ -26,13 +26,13 @@ const Contact = () => {
                   <Button
                     color="success"
                     target="_blank"
-                    href="https://wa.me/9100400245?text=We Need your Taxi services"
+                    href="https://wa.me/9581887055?text=We Need your Taxi services"
                   >
                     <FaWhatsapp size={30} />
                   </Button>
                 </ButtonGroup>
                 <br />
-                <Button target="_blank" href="tel:9100400245" color="light">Book Your Ride</Button>
+                <Button target="_blank" href="tel:9581887055" color="light">Book Your Ride</Button>
               </CardBody>
             </Card>
           </Container>

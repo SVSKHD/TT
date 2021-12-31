@@ -51,6 +51,10 @@ br{
   transition: all 0.25s ease-out;
 }
 
+.ContactIcon{
+  transform: scaleX(-1);
+}
+
 .FontFamilyN{
   font-family: Poppins;
 }
