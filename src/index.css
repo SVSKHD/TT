@@ -1,35 +1,34 @@
-.LayoutBreaker{
+.LayoutBreaker {
   margin-bottom: 1rem;
 }
 
-.cad{
+.cad {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
 
-
-.cad:hover{
+.cad:hover {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
 }
 
-a{
+a {
   color: darkslategrey;
 }
 
-a:link{
+a:link {
   text-decoration: none;
 }
 
-a:hover{
-  color: #ffde00
+a:hover {
+  color: #ffde00;
 }
 
-.rotate{
-  transform: scaleX(-1)
+.rotate {
+  transform: scaleX(-1);
 }
 
-br{
+br {
   margin-bottom: 20rem;
 }
 
@@ -51,10 +50,10 @@ br{
   transition: all 0.25s ease-out;
 }
 
-.ContactIcon{
+.ContactIcon {
   transform: scaleX(-1);
 }
 
-.FontFamilyN{
+.FontFamilyN {
   font-family: Poppins;
 }

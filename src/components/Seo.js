@@ -1,6 +1,16 @@
 import { Helmet } from "react-helmet";
-const Seo = ({ title, description, image, keywords, url, name, keyphrase , type , link}) => {
-const address = 'https://triptirupati.in'
+const Seo = ({
+  title,
+  description,
+  image,
+  keywords,
+  url,
+  name,
+  keyphrase,
+  type,
+  link,
+}) => {
+  const address = "https://triptirupati.in";
 
   return (
     <>
@@ -52,8 +62,6 @@ const address = 'https://triptirupati.in'
 }
 `}
         </script>
-    
-
       </Helmet>
     </>
   );

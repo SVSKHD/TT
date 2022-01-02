@@ -32,7 +32,9 @@ const Contact = () => {
                   </Button>
                 </ButtonGroup>
                 <br />
-                <Button target="_blank" href="tel:9581887055" color="light">Book Your Ride</Button>
+                <Button target="_blank" href="tel:9581887055" color="light">
+                  Book Your Ride
+                </Button>
               </CardBody>
             </Card>
           </Container>

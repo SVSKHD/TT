@@ -25,14 +25,14 @@ const Tempo = () => {
         keyphrase="Trip Tirupati packages , Hatchback taxi in Tirupati , Tirupati travelling services , Tirumala travelling services, Cab hire in Tirupati , Best taxi company in Tirupati"
       />
       <Layout>
-        <br/>
+        <br />
         <Container>
           <Row>
             <Col md={6} xs={12}>
               <Card className="shadow-lg">
                 <CardBody>
                   <div className="text-center">
-                  <Row>
+                    <Row>
                       <Col>
                         <h1 style={{ fontFamily: "Poppins" }}>Tempo or Van</h1>
                       </Col>
@@ -52,7 +52,7 @@ const Tempo = () => {
                         <br />
                         <p className="text-dark">
                           Hello There We are here with multiple options and now
-                          this option is one of them it's Sedan for medium sized 
+                          this option is one of them it's Sedan for medium sized
                           families and we see there might be heavy schedule in
                           your itenary but we will help you to make your trip
                           memorable within your flexibilities & Budget.

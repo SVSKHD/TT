@@ -10,39 +10,37 @@ import {
   InputGroupAddon,
   Button,
 } from "reactstrap";
-import firebase from "firebase/app"
-import "firebase/auth"
+import firebase from "firebase/app";
+import "firebase/auth";
 import { FaStar, FaUsers } from "react-icons/fa";
 import Layout from "../layout/Layout";
 import { toast } from "react-toastify";
 import { UserContext } from "../Context/UserContext";
 import { Redirect } from "react-router";
 
-
 const Signup = () => {
   const context = useContext(UserContext);
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [loading , setLoading] = useState(false)
-    
-  const handleSignUp = () => {
+  const [loading, setLoading] = useState(false);
 
+  const handleSignUp = () => {
     try {
-        firebase
+      firebase
         .auth()
         .signInWithEmailAndPassword(email, password)
         .then((res) => {
-          setLoading(true)
+          setLoading(true);
           console.log(res);
-          context.setUser({ email: res.user.email, uid: res.user.uid }); 
-      })
-      setLoading(false)  
+          context.setUser({ email: res.user.email, uid: res.user.uid });
+        });
+      setLoading(false);
     } catch (error) {
-        console.log(error);
-        toast(error.message, {
-          type: "error",
-        }); 
+      console.log(error);
+      toast(error.message, {
+        type: "error",
+      });
     }
   };
 
@@ -58,7 +56,7 @@ const Signup = () => {
     <>
       <div>
         <Layout>
-          <br/>
+          <br />
           <Container>
             <Card>
               <CardBody>
@@ -76,7 +74,7 @@ const Signup = () => {
                 <br />
                 <Row>
                   <Col md={6}>
-                  <Card
+                    <Card
                       body
                       inverse
                       style={{ backgroundColor: "#333", borderColor: "#333" }}
@@ -126,7 +124,13 @@ const Signup = () => {
                     </Card>
                   </Col>
                   <Col md={6}>
-                   {loading ? <h1 className="text-center">Wait While We Make you a RoadMap</h1> : <h1 className="text-center">Please Signin</h1>}
+                    {loading ? (
+                      <h1 className="text-center">
+                        Wait While We Make you a RoadMap
+                      </h1>
+                    ) : (
+                      <h1 className="text-center">Please Signin</h1>
+                    )}
                   </Col>
                 </Row>
               </CardBody>

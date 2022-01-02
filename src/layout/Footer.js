@@ -21,7 +21,7 @@ const Footer = () => {
           </Card>
         </Container>
       </div>
-      <br/>
+      <br />
     </>
   );
 };

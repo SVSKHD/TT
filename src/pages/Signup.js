@@ -18,8 +18,6 @@ import { toast } from "react-toastify";
 import { UserContext } from "../Context/UserContext";
 import { Redirect } from "react-router";
 
-
-
 const Signup = () => {
   const context = useContext(UserContext);
 
@@ -59,7 +57,7 @@ const Signup = () => {
     <>
       <div>
         <Layout>
-          <br/>
+          <br />
           <Container>
             <Card>
               <CardBody>

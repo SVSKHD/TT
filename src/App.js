@@ -12,8 +12,6 @@ import "firebase/database";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 
-
-
 // pages
 import Home from "./pages/Home";
 import Signup from "./pages/Signup";
@@ -24,20 +22,18 @@ import SUV from "./pages/Suv";
 import hatchback from "./pages/hatchback";
 import UltraSuv from "./pages/ultraSuv";
 import Sedan from "./pages/Sedan";
-import Tempo from "./pages/Tempo"
+import Tempo from "./pages/Tempo";
 
 import Contact from "./pages/Contact";
 
-
 // context
 import { UserContext } from "./Context/UserContext";
-
 
 // firebase
 firebase.initializeApp(Firebase);
 
 function App() {
-  const [user , setUser] = useState(null)
+  const [user, setUser] = useState(null);
   return (
     <>
       <Router>
@@ -51,8 +47,8 @@ function App() {
             <Route exact path="/suv" component={SUV} />
             <Route exact path="/sedan" component={Sedan} />
             <Route exact path="/ultrasuv" component={UltraSuv} />
-            <Route exact path="/contact" component={Contact}/>
-            <Route exact path="/tempo" component={Tempo}/>
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/tempo" component={Tempo} />
             <Route exact path="*" component={NotFound} />
           </Switch>
         </UserContext.Provider>

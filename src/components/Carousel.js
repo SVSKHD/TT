@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
@@ -12,9 +11,7 @@ import I4 from "../assests/img4.jpg";
 const Slider1 = () => {
   return (
     <>
-      <Carousel
-      showThumbs={false}
-      >
+      <Carousel showThumbs={false}>
         <div>
           <img src={I1} alt="Trip Tirupati intro" />
         </div>
