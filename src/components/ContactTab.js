@@ -6,7 +6,7 @@ const ContactTab = () => {
   return (
     <ButtonGroup>
       <Button color="warning" target="_blank" href="tel:9492121963">
-        <FaPhone size={30} />
+        <FaPhone className="ContactIcon" size={30} />
       </Button>
       <Button
         color="success"
