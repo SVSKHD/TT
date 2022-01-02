@@ -5,15 +5,7 @@ import ContactTab from "../components/ContactTab";
 import Seo from "../components/Seo";
 
 const hatchback = ({ history }) => {
-  const styles = {
-    fontFamily: "Open Sans",
-    QuoteContainer: {
-      fontFamily: "Open Sans",
-      fontSize: "10rem",
-      marginBottom: 0,
-      marginTop: 0,
-    },
-  };
+  
   return (
     <div>
       <Seo
@@ -31,11 +23,6 @@ const hatchback = ({ history }) => {
                 <CardBody>
                   <div className="text-center">
                     <h1 style={{ fontFamily: "Poppins" }}>SUV</h1>
-                    <Row>
-                      <Col md={2}>
-                        <p style={styles.QuoteContainer}>"</p>
-                      </Col>
-                      <Col md={10}>
                         <br />
                         <p className="text-dark">
                           Hello There We are here with multiple options and now
@@ -45,8 +32,6 @@ const hatchback = ({ history }) => {
                           memorable within your flexibilities.
                         </p>
                         <br />
-                      </Col>
-                    </Row>
                     <ContactTab />
                   </div>
                 </CardBody>

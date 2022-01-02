@@ -7,15 +7,6 @@ import Seo from "../components/Seo";
 import TempoI from "../assests/VAN.png";
 
 const Tempo = () => {
-  const styles = {
-    fontFamily: "Open Sans",
-    QuoteContainer: {
-      fontFamily: "Open Sans",
-      fontSize: "10rem",
-      marginBottom: 0,
-      marginTop: 0,
-    },
-  };
   return (
     <div>
       <Seo
@@ -33,23 +24,16 @@ const Tempo = () => {
                 <CardBody>
                   <div className="text-center">
                     <Row>
-                      <Col>
-                        <h1 style={{ fontFamily: "Poppins" }}>Tempo or Van</h1>
-                      </Col>
-                      <Col>
-                        <img
-                          src={TempoI}
-                          alt="Trip Tirupati Tempo Images"
-                          className="img-fluid img-thumbnail rotate"
-                        />
-                      </Col>
+                      <h1 style={{ fontFamily: "Poppins" }}>Tempo or Van</h1>
+                      <hr/>
+                      <img
+                        src={TempoI}
+                        alt="Trip Tirupati Tempo Images"
+                        className="img-fluid shadow-lg img-thumbnail rotate"
+                      />
                     </Row>
-                    <Row>
-                      <Col md={2}>
-                        <p style={styles.QuoteContainer}>"</p>
-                      </Col>
-                      <Col md={10}>
                         <br />
+                        <hr/>
                         <p className="text-dark">
                           Hello There We are here with multiple options and now
                           this option is one of them it's Sedan for medium sized
@@ -58,8 +42,8 @@ const Tempo = () => {
                           memorable within your flexibilities & Budget.
                         </p>
                         <br />
-                      </Col>
-                    </Row>
+                      
+                  
                     <ContactTab />
                   </div>
                 </CardBody>

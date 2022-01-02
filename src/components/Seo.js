@@ -1,4 +1,6 @@
 import { Helmet } from "react-helmet";
+
+
 const Seo = ({
   title,
   description,
@@ -10,7 +12,11 @@ const Seo = ({
   type,
   link,
 }) => {
+
+  
   const address = "https://triptirupati.in";
+
+  
 
   return (
     <>

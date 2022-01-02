@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState , useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // firebase
@@ -8,6 +8,8 @@ import "firebase/app";
 import "firebase/storage";
 import "firebase/database";
 
+// analytics
+import ReactGa from "react-ga"
 //toast
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
@@ -32,8 +34,14 @@ import { UserContext } from "./Context/UserContext";
 // firebase
 firebase.initializeApp(Firebase);
 
+
+
 function App() {
   const [user, setUser] = useState(null);
+  useEffect(()=>{
+   ReactGa.initialize("G-KFRY6LRPMS")
+   ReactGa.pageview(window.location.pathname + window.location.search)
+  })
   return (
     <>
       <Router>
